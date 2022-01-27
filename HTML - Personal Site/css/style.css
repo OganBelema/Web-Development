@@ -1,0 +1,19 @@
+body {
+    background-color: #876445;
+    color: #F4DFBA;
+}
+
+a {
+    color: #EEC373;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 8px;
+    border-color: white; 
+    width: 5%;
+}
+
+img {
+  height: 120px;
+}
