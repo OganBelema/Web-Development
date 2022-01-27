@@ -1,9 +1,16 @@
 body {
     background-color: #876445;
-    color: #F4DFBA;
 }
 
 a {
+    color: #F4DFBA;
+}
+
+h1 {
+    color: #CA965C;
+}
+
+h3 {
     color: #EEC373;
 }
 
