@@ -1,48 +1,150 @@
 body {
-    margin: 0px;
-    text-align: center;
-    font-family: 'Merriweather', serif;
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
-    margin-top: 0px;
-    font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #072227;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #072227;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+    color: #4FBDBA;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    line-height: 2;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.bio {
+    width: 30%;
+    margin: auto;
 }
 
 .top-container {
-    background-color: #92A9BD;
-    position: relative;
-    padding-top: 100px;
+  background-color: #92a9bd;
+  position: relative;
+  padding-top: 100px;
 }
 
-.middle-container {
-    height: 200px;
-    width: 200px;
-    background-color: blue;
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
 }
 
-.bottom-container {
-    height: 200px;
-    width: 200px;
-    background-color: red;
+.android {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.web {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.cloud-eng {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.fitness {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
 }
 
 .bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
+  position: absolute;
+  left: 50px;
+  bottom: 300px;
 }
 
 .top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px auto auto auto;
+  }
+
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  hr {
+    border-style: dotted none none none;
+    border-width: 8px;
+    border-color: #AEFEFF; 
+    width: 5%;
+    margin: 50px auto;
+}
+
+.copyright {
+    color: white;
+    font-size: 0.75rem;
+}
+
+.bottom-container {
+    margin-top: 50px;
+    background-color: #35858B;
+    padding: 20px;
+}
+
+.footer-link {
+    color: #AEFEFF;
 }
